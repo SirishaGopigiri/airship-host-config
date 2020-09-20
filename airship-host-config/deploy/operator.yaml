@@ -16,7 +16,7 @@ spec:
       serviceAccountName: airship-host-config
       containers:
         - name: airship-host-config
-          image: "airship-hostconfig:local"
+          image: "quay.io/sirishagopigiri/airship-host-config:v4"
           imagePullPolicy: "IfNotPresent"
           volumeMounts:
           - mountPath: /tmp/ansible-operator/runner
